@@ -33,7 +33,7 @@ r=insert(r,9)
 r=insert(r,-3)
 printInorder(r)
 key=int(input())
-search(r,key)
+a=search(r,key)
 if a==key:
     print("yes")
 else:
